@@ -47,7 +47,7 @@ class TestSequenceFunctions(unittest.TestCase): #subclass unittest.TestCase
         for i in range(len(labelsComp)):
             self.assertListEqual(labelsComp[i],cclab.labels[i])
   
-   def testComponentLabeling2(self):
+   def testComponentLabeling2(self): 
         mat =  [[1, -1, -1, 2, 1,3], [2, 2, 2, 2, 3,3],
                 [7, 7, 7, 7, 3,3], [6, 6, 7, 5, 4, 5], [6, 6, 6, 5, 5, 5]]
         graphics.plotHeatMap(mat)
